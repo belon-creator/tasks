@@ -25,3 +25,28 @@ body {
 .link-logo:focus {
   color: #2196f3;
 }
+
+/* 4 homework 
+task 2 */
+.navigation {
+  width: 700px;
+  border: 1px solid #2196f3;
+  margin: 0 auto;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-list-item {
+  list-style: none;
+}
+
+.menu-list-item:not(:first-child) {
+  margin-left: 12px;
+}
+
+.menu-link {
+  padding: 20px 12px;
+}
