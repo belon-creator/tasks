@@ -28,16 +28,16 @@ body {
 
 /* 4 homework 
 task 2 */
-.navigation {
+/* .navigation {
   width: 700px;
-  border: 1px solid #2196f3;
   margin: 0 auto;
-}
+  border: 1px solid #2196f3;
+} */
 
-.menu-list {
+/* .menu-list {
   display: flex;
   justify-content: flex-end;
-}
+} */
 
 .menu-list-item {
   list-style: none;
@@ -49,4 +49,27 @@ task 2 */
 
 .menu-link {
   padding: 20px 12px;
+}
+
+/* 4 hw, task 3 */
+.navigation {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  width: 960px;
+  border: 1px solid #2196f3;
+  padding: 0 24px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-list {
+  display: flex;
+}
+.logo {
+  margin-right: 390px;
 }
